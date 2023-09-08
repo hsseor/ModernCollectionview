@@ -9,6 +9,7 @@ import Foundation
 import UIKit
 
 class BannerCollectionViewCell: UICollectionViewCell{
+    
     static let id = "BannerCell"
     let titleLabel = UILabel()
     let backgroundImage = UIImageView()
@@ -18,7 +19,6 @@ class BannerCollectionViewCell: UICollectionViewCell{
             setUI()
         
     }
-
     
     private func setUI(){
         
@@ -34,7 +34,6 @@ class BannerCollectionViewCell: UICollectionViewCell{
         }
         
     }
-    
     
     //init 함수에 이미지를 넣어줄 수 없어서 config 함수를 받아서 사용
     public func config(title: String, imageUrl: String){

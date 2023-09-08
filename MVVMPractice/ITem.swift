@@ -8,7 +8,7 @@
 import Foundation
 
 
-//섹션과 아이템 정의 , 컬렉션뷰 섹션으로 들어가기 위해서 hashable 이라는 프로토콜 채택
+//섹션과 아이템 정의 , 컬렉션뷰의 섹션으로 들어가기 위해서 hashable 이라는 프로토콜 채택
 struct Section: Hashable {
     let id: String
 }
